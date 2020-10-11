@@ -87,9 +87,9 @@ class QuoteForm extends Component {
 }
 
 // do the dispatching here
-const mapDispatchToProps = dispatch => {
-  return {newQuote: quoteObj => { return dispatch(addQuote(quoteObj))}}
-}
+// const mapDispatchToProps = dispatch => {
+//   return {newQuote: quoteObj => { return dispatch(addQuote(quoteObj))}}
+// }
 
 //add arguments to connect as needed
 export default QuoteForm
