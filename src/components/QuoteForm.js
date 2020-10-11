@@ -92,4 +92,4 @@ const mapDispatchToProps = dispatch => {
 }
 
 //add arguments to connect as needed
-export default connect(null, mapDispatchToProps)(QuoteForm);
+export default QuoteForm
